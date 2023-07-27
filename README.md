@@ -1,7 +1,7 @@
 # blog_site_2023-code
 Hobby&amp;IT web app source code
 
-Web app is created using ReactJS and Python Flask framework.
+The web app is created using ReactJS and Python Flask framework.
 
 Project folder structure:
 <ul>
