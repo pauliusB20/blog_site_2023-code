@@ -3,7 +3,7 @@ Hobby&amp;IT web app source code
 
 Web app is created using ReactJS and Python Flask framework.
 
-Folder structure:
+Project folder structure:
 <ul>
 <li>blog-site - folder that has the web app frontend source code</li>
 <li>blog-site_backend - folder that has the web app backend source code</li>
