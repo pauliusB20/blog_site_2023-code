@@ -1,0 +1,228 @@
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.1rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+ 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.title-banner{
+  background-color: #f0eff0;
+  padding: 2% 0%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-btn{
+  margin: 3% 15%
+}
+
+.news-post-title{
+  margin: auto;
+  padding: 2% 0%;
+  font-size: 0.6rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+}
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100;
+}
+
+.main-page-image{
+  width: 60%;
+  height: auto;
+  padding: 1% 1%;
+  border-radius: 50%;
+}
+
+.main-page-image_bio{
+  width: 17rem !important; 
+  height: 20rem !important;
+  padding: 2% 2% 2% 3% !important;
+  object-fit: cover;
+}
+.hb-about-me-post{
+  text-align: left;
+  padding : 1rem;
+}
+.card-ht-text{  
+  padding: 2% 2% 2% 2%;
+  margin: 0% 2% 0% -1%;
+}
+
+.art-article-thumbnail{
+  padding: 3%; 
+  width: 100%;
+  height: 8rem;
+}
+
+@media (max-width: 1024px) {
+  .main-page-image{    
+    margin-left: 20%;
+  }
+  .main-page-image_bio{
+    margin: auto;
+  }
+  .card-ht-text{  
+    padding: 2% 2% 2% 2%;
+    margin: 0% 2% 0% 2%;
+  }
+  .gallery-article-card{
+    margin-top: 2%;
+  }
+  .gallery-article-card_title{
+    font-size: 2.5rem;
+  }
+  .art-article-thumbnail{
+    padding: 3%; 
+    width: 100%;
+    height: 70%;
+  }
+}
+@media (min-width: 1024px) {
+  .main-page-image{    
+   margin-left: 20%;
+  }
+}
+
+.customOverlay {
+  background: rgba(36, 123, 160, 0.7);
+}
+.customModal {
+  width: 90%;
+  padding: 0.2% !important;
+}
+.gallery-carousel-img{
+  pointer-events: all;
+}
+.gallery-article-img{
+  height: 40%;
+  padding: 0% 2% 2% 2%;
+  pointer-events: all;
+  object-fit: cover;
+}
+.gallery-article-img-shadow{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.gallery-item-img{
+  width: 100%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info-form {
+  width: 100%;
+  padding: 5%;
+}
+.hit-form-title{
+  padding: 1%;
+}
+
+.gallery-card{
+  padding: 2%; 
+  height: 100%; 
+}
+
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
